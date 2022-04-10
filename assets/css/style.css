@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sarala', sans-serif;
+}
+
+
+/* NAV */
+
+.navbar{
+    font-family: 'Saira', sans-serif;
+    color: #D9FAFF;
+}
+
+.navbar img{
+    width: 45px;
+    height: auto;
+}
+
+
+/* Header */
+
+.carousel h1{
+    font-family: 'Saira', sans-serif;
+    color: #D9FAFF;
+    font-size: 50px;
+    text-shadow: 2px 2px 6px rgb(92, 92, 92);
+}
+
+.carouse-item{
+    position: relative;
+}
+
+.carousel-item h1{
+    position: absolute;
+    top: -594px;
+    right: -7px;
+}
+
+
+
+
+
+
+/* Consulta de medios animación menu */
+
+@media (prefers-reduced-motion: reduce) {
+    .collapsing {
+        transition-property: height, visibility;
+        transition-duration: .45s;
+    }
+}

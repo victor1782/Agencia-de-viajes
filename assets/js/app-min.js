@@ -1,0 +1,1 @@
+$(document).scroll((function(){$("html").scrollTop()>300?$("nav").addClass("nav-bg"):$("nav").removeClass("nav-bg")}));var tooltipTriggerList=[].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]')),tooltipList=tooltipTriggerList.map((function(t){return new bootstrap.Tooltip(t)}));

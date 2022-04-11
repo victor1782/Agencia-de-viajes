@@ -1,11 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     padding: 0;
     font-family: 'Sarala', sans-serif;
     text-decoration: none;
+    background-color: #D9FAFF;
 }
 
-/* NAV */
+/* Nav */
 
 .navbar{
     font-family: 'Saira', sans-serif;
@@ -15,6 +20,11 @@ body{
 .navbar img{
     width: 45px;
     height: auto;
+}
+
+.nav-bg{
+    background-color: #00204A;
+    color: #D9FAFF;
 }
 
 /* Header */
@@ -91,8 +101,10 @@ ion-icon{
 
 #suscribete{
     color:#D9FAFF;
-    background-color: #00204A;
     font-family: 'Saira', sans-serif;
+    background: rgb(0,32,74);
+    background: linear-gradient(180deg, rgba(0,32,74,1) 82%, rgba(0,32,74,1) 92%, rgba(165,197,211,1) 100%);
+    
 }
 
 .icono :first-child {
@@ -105,8 +117,6 @@ ion-icon{
     background-color: #00204A;
 }
 
- 
-
 .form-control::placeholder{
     color:#D9FAFF;
 }
@@ -116,9 +126,6 @@ input{
     background: rgba(255,255,255,0.4);
 }
 
-/* .button{
-    margin-left: 290px;
-} */
 .btn-primary{
     color: #00204A;
     background-color: #00BBF0;
@@ -132,7 +139,7 @@ input{
 
 footer{
     color:#00BBF0;
-    background-color: #00204A;
+    background-color: #001633;
 }
 
 .logo-footer{
@@ -144,6 +151,7 @@ footer p{
     font-size: 9px;
 
 }
+
 
 .twitter, .instagram, .facebook{
     font-size: 30px;

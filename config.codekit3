@@ -150,6 +150,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/Logo footer.png" : {
+      "ft" : 32768,
+      "iS" : 4825,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/Logo footer.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/img\/punta-arenas.png" : {
       "ft" : 32768,
       "iS" : 76315,

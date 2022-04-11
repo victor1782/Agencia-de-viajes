@@ -17,7 +17,6 @@ body{
     height: auto;
 }
 
-
 /* Header */
 
 .carousel h1{
@@ -102,7 +101,7 @@ ion-icon{
 }
 
 .form-control{
-    width: 400px;
+    width: 100%;
     background-color: #00204A;
 }
 
@@ -117,9 +116,9 @@ input{
     background: rgba(255,255,255,0.4);
 }
 
-.button{
+/* .button{
     margin-left: 290px;
-}
+} */
 .btn-primary{
     color: #00204A;
     background-color: #00BBF0;
@@ -129,6 +128,26 @@ input{
     background-color: #00b0e0;
 }
 
+/* Footer */
+
+footer{
+    color:#00BBF0;
+    background-color: #00204A;
+}
+
+.logo-footer{
+    width: 150px;
+    height: auto;
+}
+
+footer p{
+    font-size: 9px;
+
+}
+
+.twitter, .instagram, .facebook{
+    font-size: 30px;
+}
 
 
 /* Consulta de medios animación menu */

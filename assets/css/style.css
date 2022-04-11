@@ -4,7 +4,6 @@ body{
     font-family: 'Sarala', sans-serif;
 }
 
-
 /* NAV */
 
 .navbar{
@@ -36,6 +35,48 @@ body{
     top: -594px;
     right: -7px;
 }
+
+/* Quienes somos */
+
+#quienes-somos{
+    font-family: 'Saira', sans-serif;
+    background-image: url('../img/bg_section_quienes_somos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+#quienes-somos h1, ion-icon{
+    color: #00BBF0;
+}
+
+ion-icon{
+    font-size: 50px;
+}
+
+#quienes-somos p{
+    color: #00204A;
+}
+
+/* Destinos */
+
+#destinos{
+    font-family: 'Saira', sans-serif;
+    color: #00BBF0;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
 
 
 

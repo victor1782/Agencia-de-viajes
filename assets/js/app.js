@@ -6,9 +6,6 @@ $(document).scroll(function(){
     const y = $('html').scrollTop ();
     y > 300 ? $('nav').addClass('nav-bg') : $('nav').removeClass('nav-bg');
 
-    $("#enviarCorreo").click(function (){
-      alert("El correo fue enviado correctamente");
-    });
 
 });
 
